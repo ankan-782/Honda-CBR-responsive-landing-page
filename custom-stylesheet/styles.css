@@ -1,0 +1,538 @@
+/* ---------------------------------------------------
+----------------custom fonts from google-------------- 
+-----------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+
+/*-----------------common styles------------------*/
+
+.font-family {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-color {
+    color: #E76F51;
+}
+
+.button-color {
+    background-color: transparent;
+    border: 1px solid #E76F51;
+    color: #E76F51;
+    transition: 0.5s;
+}
+
+button:hover {
+    border: 1px solid #E76F51;
+    background-color: #E76F51;
+    color: white;
+    transition: 0.5s;
+}
+
+.border-color {
+    border: 1px solid #E76F51;
+}
+
+.title-font-size {
+    font-size: 3.5rem;
+}
+
+.section-height {
+    height: 100vh;
+}
+
+.border-radius {
+    border-radius: 5px !important;
+}
+
+.box-shadow {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+/*---------------header section starts---------------*/
+
+/* nav section starts */
+li a:hover {
+    color: #E76F51 !important;
+}
+/* nav section ends */
+
+
+
+
+/* brand section starts */
+.bg-color-header {
+    background-color: #264653;
+}
+
+.brand-details {
+    width: 45%;
+}
+
+.brand-photo {
+    width: 50%;
+}
+
+.brand-photo {
+    transition: transform 0.5s;
+}
+
+.brand-photo:hover {
+    transform: translateX(-20px);
+    transition: transform 0.5s;
+}
+/* brand section ends */
+
+/*----------------header section ends---------------- */
+
+
+
+
+
+/*----------------main section starts---------------- */
+
+/* Happy client says starts */
+.fa-star {
+    font-size: 1.3rem;
+}
+
+.fa-star.filled {
+    color: #E77C40;
+}
+
+.fa-star.empty {
+    color: #E77C40;
+}
+/* Happy client says ends */
+
+
+
+
+/* frequently asked questions section starts */
+.faq-big-img-box-size {
+    width: 50%;
+}
+
+.faq-img-size {
+    width: 80%;
+}
+
+.faq-content-size {
+    width: 50%;
+}
+.accor-button {
+    font-size: 1.2rem !important;
+}
+.accor-button:hover {
+    color: white;
+    border: none;
+}
+/* frequently asked questions section ends */
+
+
+
+
+/* carousel section starts */
+.carousel-size {
+    width: 85%;
+}
+
+.carousel-img-size {
+    width: 85%;
+}
+/* carousel section ends */
+
+
+
+
+/* feedback section starts */
+.feedback-section-img {
+    background-image: url(/images/bike-cover-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.feedback-section-details-size {
+    width: 30%;
+}
+.feedback-section-details-size p {
+    text-align: justify;
+    padding: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.404);
+}
+.form-size {
+    width: 30%;
+}
+.feedback-section-padding {
+    border: 4px solid white;
+    border-radius: 10px;
+    padding: 5rem;
+}
+.form-control {
+    background-color: rgba(0, 0, 0, 0.294) !important;
+    color: white !important;
+}
+
+/* feedback section ends */
+
+/*----------------main section ends------------------ */
+
+
+
+
+/*---------------footer section starts---------------*/
+.bg-color-footer {
+    background-color: black;
+}
+.footer-img-box-size {
+    width: 100%;
+}
+.footer-img-size {
+    height: 2.7rem;
+}
+footer a {
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+/*---------------footer section ends-------------------*/
+
+
+
+
+/*------------------------------------------------------
+-------------------media queries------------------------
+--------------------------------------------------------*/
+
+
+@media screen and (max-width: 1200px) {
+    /* header nav & brand section starts */
+    .section-height {
+        height: auto;
+    }
+    header {
+        padding: 0 1rem;
+        margin-top: 94px;
+    }
+    .brand-details {
+        width: 100%;
+    }
+    
+    .brand-photo {
+        width: 100%;
+    }
+    /* header nav & brand section ends */
+
+
+
+
+    /* frequently asked questions section starts */
+    .faq-big-img-box-size {
+        width: 60%;
+    }
+
+    .faq-img-size {
+        width: 100%;
+    }
+
+    .faq-content-size {
+        width: 40%;
+    }
+    .accor-button {
+        font-size: 1.3rem !important;
+    }
+    /* frequently asked questions section ends */
+
+
+
+
+    /* carousel section starts */
+    .carousel-size {
+        width: 100%;
+    }
+
+    .carousel-img-size {
+        width: 100%;
+    }
+    /* carousel section ends */
+
+
+
+
+    /* feedback section starts */
+    .feedback-section-details-size {
+        width: 40%;
+    }
+    .form-size {
+        width: 40%;
+    }
+    .feedback-section-padding {
+        padding: 2rem;
+    }
+    .form-control {
+        background-color: rgba(0, 0, 0, 0.424) !important;
+        color: white !important;
+    }
+    .feedback-form label {
+        font-size: 1rem;
+    }
+    /* feedback section ends */
+}
+
+
+@media screen and (max-width: 992px) {
+    /* header nav & brand section starts */
+    .section-height {
+        height: auto;
+    }
+    header {
+        padding: 0 1rem;
+        margin-top: 86px;
+    }
+    .brand-details {
+        width: 100%;
+    }
+    
+    .brand-photo {
+        width: 100%;
+    }
+    /* header nav & brand section ends */
+
+
+
+
+    /* frequently asked questions section starts */
+    .faq-big-img-box-size {
+        width: 90%;
+    }
+
+    .faq-img-size {
+        width: 100%;
+    }
+
+    .faq-content-size {
+        width: 100%;
+    }
+    .accor-button {
+        font-size: 1.3rem !important;
+    }
+    /* frequently asked questions section ends */
+
+
+
+
+    /* carousel section starts */
+    .carousel-size {
+        width: 100%;
+    }
+
+    .carousel-img-size {
+        width: 100%;
+    }
+    /* carousel section ends */
+
+
+
+
+
+    /* feedback section starts */
+    .feedback-section-details-size {
+        width: 100%;
+    }
+    .form-size {
+        width: 100%;
+    }
+    .feedback-section-padding {
+        border: none;
+        padding: 2rem;
+    }
+    .form-control {
+        background-color: rgba(0, 0, 0, 0.424) !important;
+        color: white !important;
+    }
+    .feedback-form label {
+        font-size: 1.2rem;
+    }
+    /* feedback section ends */
+}
+
+
+@media screen and (max-width: 768px) {
+    /* header nav & brand section starts */
+    .section-height {
+        height: auto;
+    }
+    header {
+        padding: 0 1rem;
+        margin-top: 86px;
+    }
+    .brand-details {
+        width: 100%;
+    }
+    
+    .brand-photo {
+        width: 100%;
+    }
+    /* header nav & brand section ends */
+
+
+
+
+
+    /* frequently asked questions section starts */
+    .faq-big-img-box-size {
+        width: 80%;
+    }
+
+    .faq-img-size {
+        width: 100%;
+    }
+
+    .faq-content-size {
+        width: 100%;
+    }
+    .accor-button {
+        font-size: 1.3rem !important;
+    }
+    /* frequently asked questions section ends */
+
+
+
+
+    /* carousel section starts */
+    .carousel-size {
+        width: 100%;
+    }
+
+    .carousel-img-size {
+        width: 100%;
+    }
+    /* carousel section ends */
+
+
+
+
+    /* feedback section starts */
+    .feedback-section-details-size {
+        width: 100%;
+    }
+    .form-size {
+        width: 100%;
+    }
+    .feedback-section-padding {
+        border: none;
+        padding: 2rem;
+    }
+    .form-control {
+        background-color: rgba(0, 0, 0, 0.424) !important;
+        color: white !important;
+    }
+    .feedback-form label {
+        font-size: 1.2rem;
+    }
+    /* feedback section ends */
+
+
+
+
+    /*-------footer section starts--------*/
+    .footer-img-box-size {
+        width: 50%;
+    }
+    /*-------footer section ends--------*/
+}
+
+
+@media screen and (max-width: 576px) {
+    /* header nav & brand section starts */
+    .section-height {
+        height: auto;
+    }
+    header {
+        padding: 0 1rem;
+        margin-top: 86px;
+    }
+    .title-font-size {
+        font-size: 2rem;
+    }
+    .brand-details {
+        width: 100%;
+    }
+    
+    .brand-photo {
+        width: 100%;
+    }
+    /* header nav & brand section ends */
+
+
+
+
+    /* frequently asked questions section starts */
+    .faq-big-img-box-size {
+        width: 100%;
+    }
+
+    .faq-img-size {
+        width: 100%;
+    }
+
+    .faq-content-size {
+        width: 100%;
+    }
+    .accor-button {
+        font-size: 1rem !important;
+    }
+    /* frequently asked questions section ends */
+
+
+
+
+    /* carousel section starts */
+    .carousel-size {
+        width: 100%;
+    }
+
+    .carousel-img-size {
+        width: 100%;
+    }
+    /* carousel section ends */
+
+
+
+    /* feedback section starts */
+    .feedback-section-details-size {
+        width: 100%;
+    }
+    .form-size {
+        width: 100%;
+    }
+    .feedback-section-padding {
+        border: none;
+        padding: 2rem;
+    }
+    .form-control {
+        background-color: rgba(0, 0, 0, 0.424) !important;
+        color: white !important;
+    }
+    .feedback-form label {
+        font-size: 1.5rem;
+    }
+    /* feedback section ends */
+
+
+
+
+    /*-------footer section starts--------*/
+    .footer-img-box-size {
+        width: 50%;
+    }
+    .footer-img-size {
+        height: 2rem;
+    }
+    /*-------footer section ends--------*/
+
+}
